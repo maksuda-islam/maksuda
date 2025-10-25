@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-import profileImage from '../assets/zbdp.png';
+// import profileImage from '../assets/maksuda.png'; // Update with actual image path
 
 const Home: React.FC = () => {
   return (
@@ -8,26 +8,26 @@ const Home: React.FC = () => {
       <div className="hero-section">
         <div className="hero-content">
           <div className="profile-section">
-            <img 
+            {/* <img 
               src={profileImage} 
-              alt="Zubair Rahman Tusar" 
+              alt="Maksuda Islam" 
               className="profile-image"
-            />
+            /> */}
             <div className="profile-info">
-              <h1 className="name">Zubair Rahman Tusar</h1>
-              <h2 className="title">Manager, AI & Data Science</h2>
+              <h1 className="name">Maksuda Islam</h1>
+              <h2 className="title">Software Engineer, QA (Automation)</h2>
               <p className="location">📍 Dhaka, Bangladesh</p>
               <div className="contact-links">
-                <a href="https://linkedin.com/in/ztusar" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/maksuda-islam/" target="_blank" rel="noopener noreferrer">
                   LinkedIn
                 </a>
-                <a href="https://github.com/zubairtusar" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/maksuda-islam" target="_blank" rel="noopener noreferrer">
                   GitHub
                 </a>
-                <a href="https://scholar.google.com/citations?user=nRQqx3wAAAAJ" target="_blank" rel="noopener noreferrer">
+                <a href="https://scholar.google.com/citations?user=959fzIoAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
                   Google Scholar
                 </a>
-                <a href="mailto:zubairrahman@iut-dhaka.edu">
+                <a href="mailto:maksudaislam@iut-dhaka.edu">
                   Email
                 </a>
               </div>
@@ -40,10 +40,11 @@ const Home: React.FC = () => {
         <div className="container">
           <h2>Professional Summary</h2>
           <p className="summary-text">
-            AI & Data Science Manager at Robi Axiata Limited with expertise in machine learning, 
-            deep learning, and data science. Experienced in developing production-scale AI solutions 
-            including recommendation systems, network optimization models, and generative AI initiatives. 
-            Published researcher with contributions to sentiment analysis and human activity recognition.
+            Software Quality Assurance Engineer with expertise in test automation frameworks, 
+            API testing, and database management. Experienced in developing automation scripts 
+            using Playwright, Cypress, and Selenium. Strong research background in data security, 
+            application security, and automated software engineering with published work in 
+            source code commenting integrity and brain tumor segmentation.
           </p>
 
           <div className="highlights">
@@ -51,39 +52,39 @@ const Home: React.FC = () => {
               <h3>🎓 Education</h3>
               <p>B.Sc in Software Engineering</p>
               <p>Islamic University of Technology</p>
-              <p>CGPA: 3.64/4.00</p>
+              <p>CGPA: 3.35/4.00</p>
             </div>
             
             <div className="highlight-card">
               <h3>💼 Experience</h3>
-              <p>3+ years in AI & Data Science</p>
-              <p>Led nation-wide AI deployments</p>
-              <p>Top 5% performer (2023-2024)</p>
+              <p>QA Automation Engineer</p>
+              <p>Test Framework Development</p>
+              <p>API & Load Testing</p>
             </div>
             
             <div className="highlight-card">
               <h3>📚 Publications</h3>
-              <p>ICSOFT 2023 Conference Paper</p>
-              <p>UbiComp/ISWC 2021 Workshop</p>
-              <p>Focus on ML & SE applications</p>
+              <p>International Journal (2024)</p>
+              <p>IEEE Conference (2022)</p>
+              <p>UbiComp Workshop (2021)</p>
             </div>
             
             <div className="highlight-card">
               <h3>🔧 Expertise</h3>
-              <p>PyTorch, TensorFlow, OpenCV</p>
-              <p>LLM Systems & RAG</p>
-              <p>Geospatial Analysis & ML</p>
+              <p>Playwright, Cypress, Selenium</p>
+              <p>Python, C, JavaScript/TypeScript</p>
+              <p>Postman, JMeter, Jira</p>
             </div>
           </div>
 
           <div className="recent-achievements">
             <h3>Recent Achievements</h3>
             <ul>
-              <li>🏆 Awarded Divisional Champion in Hall of Honor for innovation and collaboration</li>
-              <li>⭐ Star performer for Q3'2024 for piloting nation-wide site recommendation rollout</li>
-              <li>🤖 Led organization-wide generative AI adoption and execution strategy</li>
-              <li>📊 Developed network propagation models with ~200 Meter RMSE accuracy</li>
-              <li>💡 Implemented multi-armed bandit systems for ARPU enhancement</li>
+              <li>�️ Structured & developed test automation framework using Playwright (used by 200+ QA Engineers at Therap BD)</li>
+              <li>🤖 Automated regression testing of multiple dynamic modules in both Cypress and Playwright</li>
+              <li>📊 Implemented API Testing automation using Playwright</li>
+              <li>� Published peer-reviewed research on source code commenting integrity</li>
+              <li>🏆 Achieved high performance in competitive programming and data science competitions</li>
             </ul>
           </div>
         </div>

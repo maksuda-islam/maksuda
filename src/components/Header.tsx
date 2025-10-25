@@ -8,7 +8,7 @@ const Header: React.FC = () => {
       <div className="header-container">
         <div className="logo">
           <NavLink to="/" className="logo-link">
-            Zubair Rahman Tusar
+            Maksuda Islam
           </NavLink>
         </div>
         <nav className="nav">

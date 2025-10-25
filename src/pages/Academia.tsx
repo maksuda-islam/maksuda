@@ -11,16 +11,32 @@ const Academia: React.FC = () => {
           <h2>Publications</h2>
           
           <div className="publication-card">
-            <h3>Effectiveness of Data Augmentation and Ensembling Using Transformer-Based Models for Sentiment Analysis: Software Engineering Perspective</h3>
+            <h3>The Integrity of Source Code Commenting: Benchmark Dataset and Empirical Analysis</h3>
             <div className="publication-details">
               <p className="authors">
-                <strong>Zubair Tusar</strong>, Sadat Bin Sharfuddin, Muhtasim Abid, Md. Haque, Md. Mostafa
+                <strong>Maksuda Islam</strong>, Md S.Hossen, A. Haque, Md. Nazmul Haque, L.N.Lota
               </p>
-              <p className="venue">ICSOFT 2023 - Volume 1 [Conference]</p>
+              <p className="venue">International Journal of Computer Vision & Signal Processing, 2024, 14(1) [Journal]</p>
               <div className="publication-description">
-                <p>Proposed SE-vocabulary augmentation and transformer ensembling for sentiment polarity, improving weighted/macro F1 by 1–26% on four SE datasets over prior baselines.</p>
+                <p>Peer-reviewed article from BSc thesis. Built ML model to classify code-comment consistency using topic modeling and ensemble methods.</p>
               </div>
-              <a href="https://www.scitepress.org/Link.aspx?doi=10.5220/0012092500003538" target="_blank" rel="noopener noreferrer" className="publication-link">
+              <a href="https://cennser.org/IJCVSP/finalPaper/140110.pdf" target="_blank" rel="noopener noreferrer" className="publication-link">
+                View Publication
+              </a>
+            </div>
+          </div>
+
+          <div className="publication-card">
+            <h3>Brain Tumor Segmentation using Enhanced U-Net Model with Empirical Analysis</h3>
+            <div className="publication-details">
+              <p className="authors">
+                A.A.Nasim, AA.Munem, <strong>Maksuda Islam</strong>, Md A.H.Palash, M.A.H.Shah
+              </p>
+              <p className="venue">2022 25th International Conference on Computer and Information Technology (ICCIT), Publisher: IEEE [Conference]</p>
+              <div className="publication-description">
+                <p>Research assistantship project at Pioneer Alpha. Developed a CNN model that utilized 2D UNET as a foundation to improve the Accuracy and Dice Coefficient Score of Brain Tumor Segmentation.</p>
+              </div>
+              <a href="https://ieeexplore.ieee.org/document/10054934" target="_blank" rel="noopener noreferrer" className="publication-link">
                 View Publication
               </a>
             </div>
@@ -30,11 +46,11 @@ const Academia: React.FC = () => {
             <h3>Accelerometer-based Complex Nurse Care Activity Recognition using Machine Learning Approach</h3>
             <div className="publication-details">
               <p className="authors">
-                <strong>Zubair Tusar</strong>, Maksuda Islam, Sadia Sharmin
+                Z.R.Tusar, <strong>Maksuda Islam</strong>, S.Sharmin
               </p>
-              <p className="venue">UbiComp/ISWC'21 Adjunct [Workshop, non-archival]</p>
+              <p className="venue">UbiComp'21: Adjunct Proceedings of the 2021 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2021 ACM International Symposium on Wearable Computers [Workshop]</p>
               <div className="publication-description">
-                <p>Built a smartphone-accelerometer HAR system with denoising filters, overlapping windows, multi-domain features, and RF battling high data/label noise.</p>
+                <p>HASCA 2020 competition project. Built a wearable that performs on-device inference to detect unusual patient movements and trigger caregiver alerts.</p>
               </div>
               <a href="https://dl.acm.org/doi/10.1145/3460418.3479390" target="_blank" rel="noopener noreferrer" className="publication-link">
                 View Publication
@@ -49,48 +65,30 @@ const Academia: React.FC = () => {
           <div className="education-card">
             <div className="education-header">
               <h3>B.Sc in Software Engineering</h3>
-              <span className="duration">Jan 2018 – Apr 2022</span>
+              <span className="duration">Jan 2018 – May 2022</span>
             </div>
-            <p className="institution">Islamic University of Technology, Gazipur, Bangladesh</p>
-            <p className="gpa">CGPA 3.64/4.00 (last 4 semesters: 3.88)</p>
+            <p className="institution">Islamic University of Technology, Bangladesh</p>
+            <p className="gpa">CGPA 3.35/4.00 (last 4 semesters: 3.71/4.00)</p>
             
             <div className="coursework">
-              <h4>Notable Coursework:</h4>
+              <h4>Research Interests:</h4>
               <div className="coursework-grid">
                 <div className="coursework-category">
-                  <h5>Core Computer Science</h5>
+                  <h5>Core Research Areas</h5>
                   <ul>
-                    <li>Data Structures</li>
-                    <li>Algorithms</li>
-                    <li>Database Management</li>
-                    <li>Operating Systems</li>
-                    <li>Microprocessor</li>
+                    <li>Data Security</li>
+                    <li>Application Security</li>
+                    <li>Digital Forensics</li>
+                    <li>Automated Software Engineering</li>
                   </ul>
                 </div>
                 <div className="coursework-category">
-                  <h5>AI & Data Science</h5>
+                  <h5>Applied Research</h5>
                   <ul>
-                    <li>Probability and Statistics</li>
-                    <li>Big Data Analysis</li>
-                    <li>Machine Learning</li>
-                    <li>Artificial Intelligence</li>
-                  </ul>
-                </div>
-                <div className="coursework-category">
-                  <h5>Software Engineering</h5>
-                  <ul>
-                    <li>Software Security</li>
-                    <li>Software Maintenance</li>
-                    <li>Software Requirement and Specification</li>
-                    <li>Design Patterns</li>
-                    <li>Technical Report Writing</li>
-                  </ul>
-                </div>
-                <div className="coursework-category">
-                  <h5>Development</h5>
-                  <ul>
-                    <li>Embedded Software Development</li>
-                    <li>Server Programming</li>
+                    <li>Software Engineering-Based Research</li>
+                    <li>Applied AI</li>
+                    <li>Machine Learning Applications</li>
+                    <li>Computer Vision</li>
                   </ul>
                 </div>
               </div>
@@ -99,26 +97,18 @@ const Academia: React.FC = () => {
             <div className="leadership">
               <h4>Leadership Roles:</h4>
               <ul>
-                <li><strong>Student Mentor</strong> - Conducted applied sessions on wireframing and prototyping</li>
-                <li><strong>Head of Creative Fields</strong> - Islamic University of Technology Photography Society (IUTPS)</li>
+                <li><strong>Operations Executive (Sponsorship & Liaison)</strong> - IUT Computer Society (Jan 2021 – Dec 2022)</li>
               </ul>
             </div>
           </div>
 
           <div className="education-card">
             <div className="education-header">
-              <h3>Higher Secondary School Certificate</h3>
-              <span className="duration">Jun 2015 – Apr 2017</span>
+              <h3>Higher Secondary Certificate (HSC) & Secondary School Certificate (SSC)</h3>
+              <span className="duration">2005 – 2017</span>
             </div>
-            <p className="institution">Adamjee Cantonment College, Dhaka, Bangladesh</p>
-            <p className="gpa">GPA 5.00/5.00</p>
-            
-            <div className="leadership">
-              <h4>Leadership Roles:</h4>
-              <ul>
-                <li><strong>Vice President of Photography</strong> - Neutrino ACC Science Club - Covered event photographs and managed photography wing of the club</li>
-              </ul>
-            </div>
+            <p className="institution">Viqarunnisa Noon School & College, Bangladesh</p>
+            <p className="gpa">GPA 5.00/5.00 (Awarded Government Scholarship)</p>
           </div>
         </section>
 
@@ -134,7 +124,7 @@ const Academia: React.FC = () => {
               </div>
               <div className="individual-scores">
                 <div className="score-item">
-                  <span>Speaking:</span>
+                  <span>Reading:</span>
                   <span>8.0</span>
                 </div>
                 <div className="score-item">
@@ -146,7 +136,7 @@ const Academia: React.FC = () => {
                   <span>7.0</span>
                 </div>
                 <div className="score-item">
-                  <span>Reading:</span>
+                  <span>Speaking:</span>
                   <span>6.5</span>
                 </div>
               </div>

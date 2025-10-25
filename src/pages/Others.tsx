@@ -12,65 +12,54 @@ const Others: React.FC = () => {
           
           <div className="skills-grid">
             <div className="skill-category">
-              <h3>🤖 Vision & Machine Learning</h3>
-              <div className="skills-list">
-                <span className="skill-item expert">PyTorch</span>
-                <span className="skill-item expert">TensorFlow</span>
-                <span className="skill-item expert">OpenCV</span>
-                <span className="skill-item advanced">YOLO Detection</span>
-                <span className="skill-item advanced">OCR</span>
-                <span className="skill-item expert">LSTM/RNN</span>
-                <span className="skill-item advanced">Contextual Bandits</span>
-              </div>
-            </div>
-
-            <div className="skill-category">
-              <h3>🧠 LLM Systems</h3>
-              <div className="skills-list">
-                <span className="skill-item expert">Prompt Engineering</span>
-                <span className="skill-item expert">Context Engineering</span>
-                <span className="skill-item advanced">Retrieval Strategies</span>
-                <span className="skill-item advanced">Vectorization</span>
-                <span className="skill-item expert">RAG</span>
-                <span className="skill-item advanced">Agentic Systems</span>
-                <span className="skill-item advanced">LLM APIs</span>
-              </div>
-            </div>
-
-            <div className="skill-category">
-              <h3>📊 Data & Geospatial</h3>
-              <div className="skills-list">
-                <span className="skill-item expert">SQL</span>
-                <span className="skill-item advanced">PySpark</span>
-                <span className="skill-item advanced">GeoPandas</span>
-                <span className="skill-item expert">Spatial Indexing</span>
-                <span className="skill-item advanced">KD/Ball Tree</span>
-                <span className="skill-item advanced">Tableau</span>
-              </div>
-            </div>
-
-            <div className="skill-category">
-              <h3>🔧 Infrastructure & Web</h3>
-              <div className="skills-list">
-                <span className="skill-item advanced">Docker</span>
-                <span className="skill-item intermediate">Kubernetes</span>
-                <span className="skill-item advanced">Streamlit</span>
-                <span className="skill-item advanced">Next.js</span>
-                <span className="skill-item advanced">React</span>
-                <span className="skill-item advanced">Flask</span>
-                <span className="skill-item intermediate">Azure</span>
-                <span className="skill-item intermediate">AWS</span>
-              </div>
-            </div>
-
-            <div className="skill-category">
               <h3>💻 Programming Languages</h3>
               <div className="skills-list">
                 <span className="skill-item expert">Python</span>
-                <span className="skill-item advanced">C/C++</span>
-                <span className="skill-item advanced">JavaScript</span>
-                <span className="skill-item expert">SQL</span>
-                <span className="skill-item intermediate">TypeScript</span>
+                <span className="skill-item expert">C</span>
+                <span className="skill-item expert">JavaScript</span>
+                <span className="skill-item advanced">TypeScript</span>
+              </div>
+            </div>
+
+            <div className="skill-category">
+              <h3>� Testing & Automation Tools</h3>
+              <div className="skills-list">
+                <span className="skill-item expert">Playwright</span>
+                <span className="skill-item expert">Cypress</span>
+                <span className="skill-item expert">Selenium</span>
+                <span className="skill-item expert">Postman</span>
+                <span className="skill-item advanced">Apache JMeter</span>
+              </div>
+            </div>
+
+            <div className="skill-category">
+              <h3>📊 Data Science & ML</h3>
+              <div className="skills-list">
+                <span className="skill-item expert">Pandas</span>
+                <span className="skill-item expert">NumPy</span>
+                <span className="skill-item advanced">Machine Learning</span>
+                <span className="skill-item advanced">NLP</span>
+                <span className="skill-item advanced">Computer Vision</span>
+              </div>
+            </div>
+
+            <div className="skill-category">
+              <h3>�️ Database & Infrastructure</h3>
+              <div className="skills-list">
+                <span className="skill-item expert">PostgreSQL</span>
+                <span className="skill-item expert">MSSQL</span>
+                <span className="skill-item advanced">pgAdmin</span>
+                <span className="skill-item advanced">MSSQL Server</span>
+              </div>
+            </div>
+
+            <div className="skill-category">
+              <h3>� Development & Project Management</h3>
+              <div className="skills-list">
+                <span className="skill-item expert">ReactJS</span>
+                <span className="skill-item expert">Jira</span>
+                <span className="skill-item advanced">BitBucket</span>
+                <span className="skill-item advanced">Git</span>
               </div>
             </div>
           </div>
@@ -82,49 +71,49 @@ const Others: React.FC = () => {
           <div className="references-grid">
             <div className="reference-card">
               <div className="reference-header">
-                <h4>Mohayeminul Islam</h4>
+                <h4>Sadia Sharmin</h4>
                 <span className="title">Assistant Professor</span>
               </div>
               <p className="institution">Islamic University of Technology</p>
               <div className="contact-info">
-                <a href="mailto:mohayemin@iut-dhaka.edu" className="contact-link">
-                  📧 mohayemin@iut-dhaka.edu
+                <a href="mailto:sharmin@iut-dhaka.edu" className="contact-link">
+                  📧 sharmin@iut-dhaka.edu
                 </a>
               </div>
               <div className="reference-context">
-                <p>Academic advisor and mentor during undergraduate studies in Software Engineering.</p>
+                <p>Academic supervisor and mentor for research projects in software engineering and machine learning.</p>
               </div>
             </div>
 
             <div className="reference-card">
               <div className="reference-header">
-                <h4>Syed Md Taukir Imam</h4>
-                <span className="title">Senior General Manager</span>
+                <h4>Md. Nazmul Haque</h4>
+                <span className="title">Assistant Professor</span>
               </div>
-              <p className="institution">AI & Data Science, Robi Axiata Limited</p>
+              <p className="institution">Islamic University of Technology</p>
               <div className="contact-info">
-                <a href="mailto:syed.taukir@robi.com.bd" className="contact-link">
-                  📧 syed.taukir@robi.com.bd
+                <a href="mailto:nazmul.haque@iut-dhaka.edu" className="contact-link">
+                  📧 nazmul.haque@iut-dhaka.edu
                 </a>
               </div>
               <div className="reference-context">
-                <p>Direct supervisor and mentor in AI & Data Science initiatives at Robi Axiata.</p>
+                <p>Co-author and academic advisor for published research on source code commenting integrity.</p>
               </div>
             </div>
 
             <div className="reference-card">
               <div className="reference-header">
-                <h4>Raihan Alam</h4>
-                <span className="title">Senior Data Engineer</span>
+                <h4>Nawshad Rehan Rasha</h4>
+                <span className="title">Sr. SQA Engineer</span>
               </div>
-              <p className="institution">Microsoft</p>
+              <p className="institution">Therap (BD) Ltd.</p>
               <div className="contact-info">
-                <a href="mailto:raihan.alam@gmail.com" className="contact-link">
-                  📧 raihan.alam@gmail.com
+                <a href="mailto:rehan.rasha@therapservices.net" className="contact-link">
+                  📧 rehan.rasha@therapservices.net
                 </a>
               </div>
               <div className="reference-context">
-                <p>Professional colleague and industry mentor in data engineering and cloud technologies.</p>
+                <p>Professional supervisor and mentor in quality assurance and test automation frameworks.</p>
               </div>
             </div>
           </div>
@@ -149,37 +138,36 @@ const Others: React.FC = () => {
             </div>
 
             <div className="info-card interests">
-              <h4>🎯 Professional Interests</h4>
+              <h4>🎯 Research Interests</h4>
               <ul>
-                <li>Agentic AI Systems</li>
-                <li>Large Language Models</li>
-                <li>Geospatial Intelligence</li>
-                <li>Edge Computing</li>
-                <li>Computer Vision Applications</li>
-                <li>MLOps & Production ML</li>
+                <li>Data Security</li>
+                <li>Application Security</li>
+                <li>Digital Forensics</li>
+                <li>Automated Software Engineering</li>
+                <li>Software Engineering-Based Research</li>
+                <li>Applied AI</li>
               </ul>
             </div>
 
-            <div className="info-card hobbies">
-              <h4>📸 Hobbies & Interests</h4>
+            <div className="info-card achievements">
+              <h4>🏆 Notable Achievements</h4>
               <ul>
-                <li>Photography (Former IUTPS Head)</li>
-                <li>Technology Research</li>
-                <li>Open Source Contribution</li>
-                <li>Scientific Writing</li>
-                <li>Workshop Facilitation</li>
-                <li>Mentoring Students</li>
+                <li>Robi Datathon 2.0 (Top 2%)</li>
+                <li>HASCA 2020 Challenge (4th Place)</li>
+                <li>BRACathon 3.0 (Top 10 Finalist)</li>
+                <li>Government Scholarship Recipient</li>
+                <li>Published Researcher (3 Publications)</li>
               </ul>
             </div>
 
             <div className="info-card volunteering">
               <h4>🤝 Leadership & Volunteering</h4>
               <ul>
-                <li>Student Mentor - Wireframing & Prototyping</li>
-                <li>Head of Creative Fields - IUTPS</li>
-                <li>VP Photography - Neutrino ACC Science Club</li>
-                <li>Workshop Leader - Generative AI</li>
-                <li>Peer Review Champion - Hall of Honor</li>
+                <li>Operations Executive - IUT Computer Society</li>
+                <li>Student Volunteer - UNICEF Bangladesh</li>
+                <li>Graphic Designer - AIM Initiative Foundation</li>
+                <li>Annual Literacy Campaign Volunteer</li>
+                <li>Course Instructor - NLP for Beginners</li>
               </ul>
             </div>
           </div>
@@ -196,26 +184,26 @@ const Others: React.FC = () => {
             
             <div className="contact-card">
               <h4>📧 Email</h4>
-              <a href="mailto:zubairrahman@iut-dhaka.edu">zubairrahman@iut-dhaka.edu</a>
+              <a href="mailto:maksudaislam@iut-dhaka.edu">maksudaislam@iut-dhaka.edu</a>
             </div>
             
             <div className="contact-card">
               <h4>💼 LinkedIn</h4>
-              <a href="https://linkedin.com/in/ztusar" target="_blank" rel="noopener noreferrer">
-                linkedin.com/in/ztusar
+              <a href="https://www.linkedin.com/in/maksuda-islam/" target="_blank" rel="noopener noreferrer">
+                linkedin.com/in/maksuda-islam
               </a>
             </div>
             
             <div className="contact-card">
               <h4>💻 GitHub</h4>
-              <a href="https://github.com/zubairtusar" target="_blank" rel="noopener noreferrer">
-                github.com/zubairtusar
+              <a href="https://github.com/maksuda-islam" target="_blank" rel="noopener noreferrer">
+                github.com/maksuda-islam
               </a>
             </div>
             
             <div className="contact-card">
               <h4>🎓 Google Scholar</h4>
-              <a href="https://scholar.google.com/citations?user=nRQqx3wAAAAJ" target="_blank" rel="noopener noreferrer">
+              <a href="https://scholar.google.com/citations?user=959fzIoAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
                 View Publications
               </a>
             </div>

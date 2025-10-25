@@ -10,47 +10,57 @@ const Projects: React.FC = () => {
         <section className="projects-section">
           <div className="project-card featured">
             <div className="project-header">
-              <h3>Paralegal Agent & Visa Petition Agent</h3>
+              <h3>Computing Code-Comment Consistency</h3>
               <div className="project-tags">
-                <span className="tag">Agentic AI</span>
-                <span className="tag">RAG</span>
-                <span className="tag">Full-Stack</span>
+                <span className="tag">Python</span>
+                <span className="tag">Pandas</span>
+                <span className="tag">NLP</span>
               </div>
             </div>
             <div className="project-description">
               <p>
-                Implemented an agentic, retrieval-augmented drafting system: n8n-orchestrated multi-agent pipelines ingest PDFs/forms, extract facts, and generate petition drafts/LoRs with evaluation and versioning.
+                Built ML model to classify code-comment consistency using topic modeling and ensemble methods. This work was published as a peer-reviewed article in the International Journal of Computer Vision & Signal Processing.
               </p>
             </div>
             <div className="tech-stack">
               <h4>Technology Stack:</h4>
               <div className="tech-tags">
-                <span className="tech-tag">Supabase</span>
-                <span className="tech-tag">PostgreSQL</span>
-                <span className="tech-tag">Next.js</span>
-                <span className="tech-tag">React</span>
-                <span className="tech-tag">Vector Search</span>
-                <span className="tech-tag">n8n</span>
+                <span className="tech-tag">Python</span>
+                <span className="tech-tag">Pandas</span>
+                <span className="tech-tag">NumPy</span>
+                <span className="tech-tag">NLP</span>
+                <span className="tech-tag">Machine Learning</span>
+                <span className="tech-tag">Topic Modeling</span>
               </div>
             </div>
             <div className="project-features">
               <h4>Key Features:</h4>
               <ul>
-                <li>Multi-agent orchestration with n8n</li>
-                <li>PDF/form ingestion and fact extraction</li>
-                <li>Automated petition draft generation</li>
-                <li>Document versioning and evaluation</li>
-                <li>Vectorization and reranking capabilities</li>
+                <li>Topic modeling for semantic analysis</li>
+                <li>Ensemble methods for classification</li>
+                <li>Code-comment consistency benchmarking</li>
+                <li>Empirical analysis and evaluation</li>
+                <li>Dataset creation and curation</li>
               </ul>
+            </div>
+            <div className="project-links">
+              <a 
+                href="https://github.com/maksuda-islam/code-comment-consistency" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="project-link"
+              >
+                View on GitHub
+              </a>
             </div>
           </div>
 
           <div className="project-card">
             <div className="project-header">
-              <h3>Movement-Monitoring Wearable</h3>
+              <h3>Movement Recognition System</h3>
               <div className="project-tags">
                 <span className="tag">IoT</span>
-                <span className="tag">Edge AI</span>
+                <span className="tag">Machine Learning</span>
                 <span className="tag">Healthcare</span>
               </div>
             </div>
@@ -96,35 +106,35 @@ const Projects: React.FC = () => {
           
           <div className="research-grid">
             <div className="research-card">
-              <h4>Sentiment Analysis with Transformer Ensembling</h4>
+              <h4>Source Code Commenting Integrity</h4>
               <p>
-                Developed SE-vocabulary augmentation and transformer ensembling techniques for sentiment polarity analysis, achieving 1–26% improvement in weighted/macro F1 scores across four software engineering datasets.
+                Developed benchmark dataset and performed empirical analysis of source code commenting integrity. Built machine learning models using topic modeling and ensemble methods to classify code-comment consistency.
               </p>
               <div className="research-outcomes">
-                <span className="outcome">📄 Published in ICSOFT 2023</span>
-                <span className="outcome">📊 26% F1 Score Improvement</span>
+                <span className="outcome">📄 Published in IJCVSP 2024</span>
+                <span className="outcome">📊 Benchmark Dataset Created</span>
               </div>
             </div>
 
             <div className="research-card">
-              <h4>Complex Nurse Care Activity Recognition</h4>
+              <h4>Brain Tumor Segmentation</h4>
               <p>
-                Built a smartphone-accelerometer Human Activity Recognition (HAR) system featuring denoising filters, overlapping windows, multi-domain features, and Random Forest classification to handle high data/label noise.
+                Developed a CNN model that utilized 2D UNET as a foundation to improve the Accuracy and Dice Coefficient Score of Brain Tumor Segmentation. Focused on improving evaluation through model fine-tuning.
+              </p>
+              <div className="research-outcomes">
+                <span className="outcome">📄 IEEE ICCIT 2022</span>
+                <span className="outcome">� Enhanced U-Net Model</span>
+              </div>
+            </div>
+
+            <div className="research-card">
+              <h4>Nurse Care Activity Recognition</h4>
+              <p>
+                Built a smartphone-accelerometer Human Activity Recognition (HAR) system featuring denoising filters, overlapping windows, multi-domain features, and Random Forest classification.
               </p>
               <div className="research-outcomes">
                 <span className="outcome">📄 UbiComp/ISWC'21 Workshop</span>
-                <span className="outcome">🥉 3rd Place HASCA Challenge</span>
-              </div>
-            </div>
-
-            <div className="research-card">
-              <h4>Bangla License Plate Detection</h4>
-              <p>
-                Collaborated on synthetic data generation using Grand Theft Auto V (GTA V) to improve Bangla license plate detection models, addressing the lack of diverse training data in local contexts.
-              </p>
-              <div className="research-outcomes">
-                <span className="outcome">🎮 Synthetic Data Generation</span>
-                <span className="outcome">🔍 Computer Vision</span>
+                <span className="outcome">🥉 4th Place HASCA 2020</span>
               </div>
             </div>
           </div>
@@ -134,46 +144,46 @@ const Projects: React.FC = () => {
           <h2>Professional Technical Projects</h2>
           
           <div className="tech-project-grid">
-            <div className="tech-project-card ai">
+            <div className="tech-project-card automation">
               <div className="project-icon">🤖</div>
-              <h4>ARPU Enhancer Model</h4>
-              <p>Contextual multi-armed bandit system integrated with offer-recommendation engine for revenue optimization.</p>
-              <div className="impact">Impact: ARPU uplift optimization</div>
+              <h4>Test Automation Framework (Playwright)</h4>
+              <p>Structured and developed test automation framework using Playwright, adopted by 200+ QA Engineers.</p>
+              <div className="impact">Impact: Framework used by 200+ engineers</div>
             </div>
 
-            <div className="tech-project-card network">
-              <div className="project-icon">📡</div>
-              <h4>Network Coverage Monitor</h4>
-              <p>Location intelligence system using KD/Ball-tree indexing for geospatial analysis, reducing processing time from weeks to hours.</p>
-              <div className="impact">Impact: 2 weeks → 2 hours processing</div>
+            <div className="tech-project-card testing">
+              <div className="project-icon">�</div>
+              <h4>Multi-Framework Automation</h4>
+              <p>Developed automation scripts for regression testing using Cypress, Playwright, and Selenium.</p>
+              <div className="impact">Impact: Comprehensive test coverage</div>
             </div>
 
-            <div className="tech-project-card ml">
-              <div className="project-icon">🎯</div>
-              <h4>New-Site Recommender</h4>
-              <p>Set-cover optimization problem solver for network site placement with greedy algorithm implementation.</p>
-              <div className="impact">Impact: 58% business potential gain</div>
+            <div className="tech-project-card api">
+              <div className="project-icon">�</div>
+              <h4>API Testing Automation</h4>
+              <p>Automated API testing using Playwright and Postman for enhanced reliability and coverage.</p>
+              <div className="impact">Impact: Improved API test reliability</div>
             </div>
 
-            <div className="tech-project-card vision">
-              <div className="project-icon">👁️</div>
-              <h4>Trade Visibility System</h4>
-              <p>End-to-end monitoring using object detection models across 700k+ retail outlets with real-time inference.</p>
-              <div className="impact">Impact: ~75% recall in production</div>
+            <div className="tech-project-card database">
+              <div className="project-icon">�️</div>
+              <h4>Database Management</h4>
+              <p>Server & Database Management (pgAdmin, MSSQL Server) of QA Environment infrastructure.</p>
+              <div className="impact">Impact: Streamlined QA environment</div>
             </div>
 
-            <div className="tech-project-card analytics">
-              <div className="project-icon">📊</div>
-              <h4>Customer Segmentation</h4>
-              <p>360° segmentation of 50M+ customers using statistical modeling and behavioral feature engineering.</p>
-              <div className="impact">Impact: Targeted advertising platform</div>
+            <div className="tech-project-card performance">
+              <div className="project-icon">⚡</div>
+              <h4>Load Testing Implementation</h4>
+              <p>Implemented load testing using JMeter to ensure application performance under stress.</p>
+              <div className="impact">Impact: Performance optimization</div>
             </div>
 
-            <div className="tech-project-card prediction">
-              <div className="project-icon">⏰</div>
-              <h4>Intervention Time Model</h4>
-              <p>Regression-based preferred intervention time modeling for conversion rate optimization.</p>
-              <div className="impact">Impact: 67% conversion rate</div>
+            <div className="tech-project-card nlp">
+              <div className="project-icon">📚</div>
+              <h4>NLP Course Development</h4>
+              <p>Designed and conducted project-based NLP course for beginners at Pioneer Alpha.</p>
+              <div className="impact">Impact: Educational content creation</div>
             </div>
           </div>
         </section>
@@ -183,46 +193,46 @@ const Projects: React.FC = () => {
           
           <div className="skills-showcase">
             <div className="skill-category">
-              <h4>🧠 Machine Learning & AI</h4>
+              <h4>� Test Automation</h4>
               <ul>
-                <li>Multi-armed Bandit Systems</li>
-                <li>LSTM/RNN Networks</li>
+                <li>Playwright Framework</li>
+                <li>Cypress Testing</li>
+                <li>Selenium WebDriver</li>
+                <li>Regression Testing</li>
+                <li>API Testing</li>
+              </ul>
+            </div>
+
+            <div className="skill-category">
+              <h4>🤖 Machine Learning & AI</h4>
+              <ul>
+                <li>Topic Modeling</li>
                 <li>Ensemble Methods</li>
-                <li>Anomaly Detection</li>
-                <li>Recommender Systems</li>
+                <li>CNN/U-Net Models</li>
+                <li>Natural Language Processing</li>
+                <li>Computer Vision</li>
               </ul>
             </div>
 
             <div className="skill-category">
-              <h4>👁️ Computer Vision</h4>
+              <h4>�️ Database & Infrastructure</h4>
               <ul>
-                <li>Object Detection (YOLO)</li>
-                <li>OCR Implementation</li>
-                <li>Edge Detection</li>
-                <li>Color Quantization</li>
-                <li>Production Monitoring</li>
+                <li>PostgreSQL (pgAdmin)</li>
+                <li>MSSQL Server</li>
+                <li>Database Management</li>
+                <li>QA Environment Setup</li>
+                <li>Server Administration</li>
               </ul>
             </div>
 
             <div className="skill-category">
-              <h4>🗺️ Geospatial Analysis</h4>
+              <h4>⚡ Performance & Quality</h4>
               <ul>
-                <li>Spatial Indexing (KD/Ball Trees)</li>
-                <li>Location Intelligence</li>
-                <li>Network Propagation Modeling</li>
-                <li>Coverage Analysis</li>
-                <li>Optimization Algorithms</li>
-              </ul>
-            </div>
-
-            <div className="skill-category">
-              <h4>🤖 LLM & Agentic Systems</h4>
-              <ul>
-                <li>Retrieval Augmented Generation</li>
-                <li>Multi-agent Orchestration</li>
-                <li>Prompt Engineering</li>
-                <li>Document Processing</li>
-                <li>Workflow Automation</li>
+                <li>Load Testing (JMeter)</li>
+                <li>API Testing (Postman)</li>
+                <li>Performance Optimization</li>
+                <li>Quality Assurance</li>
+                <li>Test Strategy Development</li>
               </ul>
             </div>
           </div>
