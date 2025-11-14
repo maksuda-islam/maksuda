@@ -101,99 +101,12 @@ const Projects: React.FC = () => {
           </div>
         </section>
 
-        <section className="research-projects">
-          <h2>Research & Academic Projects</h2>
-          
-          <div className="research-grid">
-            <div className="research-card">
-              <h4>Source Code Commenting Integrity</h4>
-              <p>
-                Developed benchmark dataset and performed empirical analysis of source code commenting integrity. Built machine learning models using topic modeling and ensemble methods to classify code-comment consistency.
-              </p>
-              <div className="research-outcomes">
-                <span className="outcome">📄 Published in IJCVSP 2024</span>
-                <span className="outcome">📊 Benchmark Dataset Created</span>
-              </div>
-            </div>
-
-            <div className="research-card">
-              <h4>Brain Tumor Segmentation</h4>
-              <p>
-                Developed a CNN model that utilized 2D UNET as a foundation to improve the Accuracy and Dice Coefficient Score of Brain Tumor Segmentation. Focused on improving evaluation through model fine-tuning.
-              </p>
-              <div className="research-outcomes">
-                <span className="outcome">📄 IEEE ICCIT 2022</span>
-                <span className="outcome">� Enhanced U-Net Model</span>
-              </div>
-            </div>
-
-            <div className="research-card">
-              <h4>Nurse Care Activity Recognition</h4>
-              <p>
-                Built a smartphone-accelerometer Human Activity Recognition (HAR) system featuring denoising filters, overlapping windows, multi-domain features, and Random Forest classification.
-              </p>
-              <div className="research-outcomes">
-                <span className="outcome">📄 UbiComp/ISWC'21 Workshop</span>
-                <span className="outcome">🥉 4th Place HASCA 2020</span>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="technical-projects">
-          <h2>Professional Technical Projects</h2>
-          
-          <div className="tech-project-grid">
-            <div className="tech-project-card automation">
-              <div className="project-icon">🤖</div>
-              <h4>Test Automation Framework (Playwright)</h4>
-              <p>Structured and developed test automation framework using Playwright, adopted by 200+ QA Engineers.</p>
-              <div className="impact">Impact: Framework used by 200+ engineers</div>
-            </div>
-
-            <div className="tech-project-card testing">
-              <div className="project-icon">�</div>
-              <h4>Multi-Framework Automation</h4>
-              <p>Developed automation scripts for regression testing using Cypress, Playwright, and Selenium.</p>
-              <div className="impact">Impact: Comprehensive test coverage</div>
-            </div>
-
-            <div className="tech-project-card api">
-              <div className="project-icon">�</div>
-              <h4>API Testing Automation</h4>
-              <p>Automated API testing using Playwright and Postman for enhanced reliability and coverage.</p>
-              <div className="impact">Impact: Improved API test reliability</div>
-            </div>
-
-            <div className="tech-project-card database">
-              <div className="project-icon">�️</div>
-              <h4>Database Management</h4>
-              <p>Server & Database Management (pgAdmin, MSSQL Server) of QA Environment infrastructure.</p>
-              <div className="impact">Impact: Streamlined QA environment</div>
-            </div>
-
-            <div className="tech-project-card performance">
-              <div className="project-icon">⚡</div>
-              <h4>Load Testing Implementation</h4>
-              <p>Implemented load testing using JMeter to ensure application performance under stress.</p>
-              <div className="impact">Impact: Performance optimization</div>
-            </div>
-
-            <div className="tech-project-card nlp">
-              <div className="project-icon">📚</div>
-              <h4>NLP Course Development</h4>
-              <p>Designed and conducted project-based NLP course for beginners at Pioneer Alpha.</p>
-              <div className="impact">Impact: Educational content creation</div>
-            </div>
-          </div>
-        </section>
-
         <section className="project-skills">
           <h2>Technical Expertise Demonstrated</h2>
           
           <div className="skills-showcase">
             <div className="skill-category">
-              <h4>� Test Automation</h4>
+              <h4>Test Automation</h4>
               <ul>
                 <li>Playwright Framework</li>
                 <li>Cypress Testing</li>
@@ -204,7 +117,7 @@ const Projects: React.FC = () => {
             </div>
 
             <div className="skill-category">
-              <h4>🤖 Machine Learning & AI</h4>
+              <h4>Machine Learning & AI</h4>
               <ul>
                 <li>Topic Modeling</li>
                 <li>Ensemble Methods</li>
@@ -215,19 +128,19 @@ const Projects: React.FC = () => {
             </div>
 
             <div className="skill-category">
-              <h4>�️ Database & Infrastructure</h4>
+              <h4>Database & Infrastructure</h4>
               <ul>
                 <li>PostgreSQL (pgAdmin)</li>
                 <li>MSSQL Server</li>
                 <li>Database Management</li>
-                <li>QA Environment Setup</li>
                 <li>Server Administration</li>
               </ul>
             </div>
 
             <div className="skill-category">
-              <h4>⚡ Performance & Quality</h4>
+              <h4>Performance & Quality</h4>
               <ul>
+                <li>Penetration Testing</li>
                 <li>Load Testing (JMeter)</li>
                 <li>API Testing (Postman)</li>
                 <li>Performance Optimization</li>

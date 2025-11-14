@@ -29,19 +29,13 @@ const Header: React.FC = () => {
             to="/professional" 
             className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}
           >
-            Professional
+            Work Experience
           </NavLink>
           <NavLink 
             to="/projects" 
             className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}
           >
             Projects
-          </NavLink>
-          <NavLink 
-            to="/others" 
-            className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}
-          >
-            Others
           </NavLink>
         </nav>
       </div>

@@ -5,7 +5,6 @@ import Home from './pages/Home';
 import Academia from './pages/Academia';
 import Professional from './pages/Professional';
 import Projects from './pages/Projects';
-import Others from './pages/Others';
 import './App.css';
 
 function App() {
@@ -19,7 +18,6 @@ function App() {
             <Route path="/academia" element={<Academia />} />
             <Route path="/professional" element={<Professional />} />
             <Route path="/projects" element={<Projects />} />
-            <Route path="/others" element={<Others />} />
           </Routes>
         </main>
       </div>

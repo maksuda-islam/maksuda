@@ -26,6 +26,7 @@
 
 .publications-section h2,
 .education-section h2,
+.certificates-section h2,
 .standardized-tests h2 {
   font-size: 1.8rem;
   margin-bottom: 2rem;
@@ -261,6 +262,80 @@
   font-weight: bold;
   color: #27ae60;
   font-size: 1.2rem;
+}
+
+.certificates-section {
+  margin-bottom: 4rem;
+}
+
+.certificates-section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #2c3e50;
+  border-bottom: 3px solid #3498db;
+  padding-bottom: 0.5rem;
+}
+
+.certificate-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #27ae60;
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.certificate-card:hover {
+  transform: translateX(5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.certificate-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.certificate-header h3 {
+  color: #2c3e50;
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.certificate-link {
+  padding: 0.5rem 1rem;
+  background: #27ae60;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.certificate-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.certificate-issuer {
+  color: #0066cc;
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin: 0.5rem 0;
+}
+
+.certificate-description {
+  color: #666666;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 0.5rem 0 0 0;
 }
 
 @media (max-width: 768px) {

@@ -6,8 +6,33 @@ const Professional: React.FC = () => {
     <div className="professional">
       <div className="container">
         <h1 className="page-title">Professional Experience</h1>
-        
+
         <section className="experience-section">
+
+          <div className="company-card">
+            <div className="company-header">
+              <div className="company-info">
+                <h2>Wall Street Docs (WSD)</h2>
+                <a href="https://wsd.com/" target="_blank" rel="noopener noreferrer" className="company-link">
+                  Visit Company
+                </a>
+              </div>
+            </div>
+
+            <div className="position-card">
+              <div className="position-header">
+                <h3>QA Engineer</h3>
+                <span className="duration">Nov 2025 – Present</span>
+              </div>
+
+              <div className="portfolio-section">
+                <div className="project">
+                  <h5>Manual & Automation testing, Penetration Testing on Fintech Domian</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div className="company-card">
             <div className="company-header">
               <div className="company-info">
@@ -22,7 +47,7 @@ const Professional: React.FC = () => {
             <div className="position-card current">
               <div className="position-header">
                 <h3>Software Engineer, QA (Automation)</h3>
-                <span className="duration">Feb 2024 – Present</span>
+                <span className="duration">Feb 2024 – Oct 2025</span>
               </div>
 
               <div className="portfolio-section">
@@ -56,6 +81,9 @@ const Professional: React.FC = () => {
               <div className="company-info">
                 <h2>Nilavo Technologies</h2>
                 <p className="company-subtitle">An off-shore house of Biscom Inc.</p>
+                <a href="https://nilavo.com/" target="_blank" rel="noopener noreferrer" className="company-link">
+                  Visit Company
+                </a>
               </div>
             </div>
 
@@ -95,6 +123,9 @@ const Professional: React.FC = () => {
             <div className="company-header">
               <div className="company-info">
                 <h2>Pioneer Alpha</h2>
+                <a href="https://pioneeralpha.com/" target="_blank" rel="noopener noreferrer" className="company-link">
+                  Visit Company
+                </a>
               </div>
             </div>
 
@@ -136,44 +167,35 @@ const Professional: React.FC = () => {
 
         <section className="achievements-section">
           <h2>Professional Achievements</h2>
-          
+
           <div className="achievements-grid">
             <div className="achievement-card professional-award">
               <h4>🏆 Framework Adoption</h4>
-              <p>Successfully developed and deployed test automation framework used by 200+ QA Engineers</p>
+              <p>Successfully developed and deployed test automation framework used by over 200 QA Engineers</p>
             </div>
-            
-            <div className="achievement-card innovation-award">
-              <h4>🔧 Multi-Framework Expertise</h4>
-              <p>Proficient in multiple automation frameworks: Playwright, Cypress, and Selenium</p>
-            </div>
-            
+
             <div className="achievement-card research-excellence">
               <h4>📚 Research Publication</h4>
-              <p>Published peer-reviewed research on source code commenting integrity</p>
+              <p>Published peer-reviewed research on ICCIT 2022, which was the project I worked on in Pioneer Alpha</p>
             </div>
-            
-            <div className="achievement-card ai-research">
-              <h4>� AI Research</h4>
-              <p>Contributed to brain tumor segmentation research using enhanced U-Net models</p>
-            </div>
+
           </div>
         </section>
 
         <section className="competitions-section">
           <h2>Competitions & Achievements</h2>
-          
+
           <div className="competition-list">
             <div className="competition-item">
               <h4>🥈 Robi Datathon 2.0 (Top 2%)</h4>
               <p>Served as Data Analyst in national competition</p>
             </div>
-            
+
             <div className="competition-item">
               <h4>🥉 Third Nurse Care Activity Challenge, HASCA 2020</h4>
               <p>Placed fourth; presented and published as a book chapter</p>
             </div>
-            
+
             <div className="competition-item">
               <h4>🏅 BRACathon 3.0</h4>
               <p>Finalist (Top 10 among 300+ teams)</p>
@@ -183,27 +205,54 @@ const Professional: React.FC = () => {
 
         <section className="volunteer-section">
           <h2>Co-Curricular Activities</h2>
-          
+
           <div className="volunteer-list">
             <div className="volunteer-item">
-              <h4>👥 Operations Executive (Sponsorship & Liaison)</h4>
-              <p><strong>IUT Computer Society</strong> (Jan 2021 – Dec 2022)</p>
+              <div className="volunteer-header">
+                <h3>IUT Computer Society</h3>
+                <a href="https://iutcs.itch.io/" target="_blank" rel="noopener noreferrer" className="company-link">
+                  Visit Organization
+                </a>
+              </div>
+              <div className="volunteer-role">
+                <p className="role-title">Operations Executive (Sponsorship & Liaison)</p>
+                <span className="duration">Jan 2021 – Dec 2022</span>
+              </div>
+              <div className="volunteer-role">
+                <p className="role-title">General Body Member</p>
+                <span className="duration">Jan 2018 – Dec 2020</span>
+              </div>
             </div>
-            
+
             <div className="volunteer-item">
-              <h4>� Student Volunteer (UNICEF Bangladesh)</h4>
-              <p><strong>December 2018</strong> - Worked as a Volunteer in the program of the 2nd Joint Integrated Network Meeting, NIS (affiliated with UNICEF). Role: On-site registration using QR codes.</p>
+              <div className="volunteer-header">
+                <h3>UNICEF Bangladesh</h3>
+              </div>
+              <div className="volunteer-role">
+                <p className="role-title">Student Volunteer</p>
+                <span className="duration">December 2018</span>
+              </div>
+              <div className="volunteer-details">
+                <p><strong>2nd Joint Integrated Network Meeting</strong></p>
+                <p>Worked as a Volunteer in the program of the 2nd Joint Integrated Network Meeting, NIS (affiliated with UNICEF). Role: On-site registration using QR codes.</p>
+              </div>
             </div>
-            
+
             <div className="volunteer-item">
-              <h4>🎨 Graphic Designer & Annual Literacy Campaign Volunteer</h4>
-              <p><strong>AIM Initiative Foundation</strong> (Jan 2020 – Dec 2023)</p>
-              <a href="https://aiminitiativefoundation.com/" target="_blank" rel="noopener noreferrer" className="project-link">
-                Visit Organization
-              </a>
+              <div className="volunteer-header">
+                <h3>AIM Initiative Foundation</h3>
+                <a href="https://aiminitiativefoundation.com/" target="_blank" rel="noopener noreferrer" className="company-link">
+                  Visit Organization
+                </a>
+              </div>
+              <div className="volunteer-role">
+                <p className="role-title">Graphic Designer & Annual Literacy Campaign Volunteer</p>
+                <span className="duration">Jan 2020 – Dec 2023</span>
+              </div>
             </div>
           </div>
         </section>
+
       </div>
     </div>
   );

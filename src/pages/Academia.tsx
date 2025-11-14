@@ -5,11 +5,11 @@ const Academia: React.FC = () => {
   return (
     <div className="academia">
       <div className="container">
-        <h1 className="page-title">Academia</h1>
-        
+        <h1 className="page-title">Academia & Certificates</h1>
+
         <section className="publications-section">
           <h2>Publications</h2>
-          
+
           <div className="publication-card">
             <h3>The Integrity of Source Code Commenting: Benchmark Dataset and Empirical Analysis</h3>
             <div className="publication-details">
@@ -61,44 +61,31 @@ const Academia: React.FC = () => {
 
         <section className="education-section">
           <h2>Education</h2>
-          
+
           <div className="education-card">
             <div className="education-header">
               <h3>B.Sc in Software Engineering</h3>
               <span className="duration">Jan 2018 – May 2022</span>
             </div>
             <p className="institution">Islamic University of Technology, Bangladesh</p>
-            <p className="gpa">CGPA 3.35/4.00 (last 4 semesters: 3.71/4.00)</p>
-            
+            <p className="gpa">CGPA 3.35/4.00 (last 2 years: 3.71/4.00)</p>
+
             <div className="coursework">
               <h4>Research Interests:</h4>
               <div className="coursework-grid">
                 <div className="coursework-category">
-                  <h5>Core Research Areas</h5>
-                  <ul>
-                    <li>Data Security</li>
-                    <li>Application Security</li>
-                    <li>Digital Forensics</li>
-                    <li>Automated Software Engineering</li>
-                  </ul>
-                </div>
-                <div className="coursework-category">
-                  <h5>Applied Research</h5>
-                  <ul>
-                    <li>Software Engineering-Based Research</li>
-                    <li>Applied AI</li>
-                    <li>Machine Learning Applications</li>
-                    <li>Computer Vision</li>
-                  </ul>
+                  Web Security, Application Security, Software Engineering & maintenance, Applied AI
                 </div>
               </div>
-            </div>
-
-            <div className="leadership">
-              <h4>Leadership Roles:</h4>
-              <ul>
-                <li><strong>Operations Executive (Sponsorship & Liaison)</strong> - IUT Computer Society (Jan 2021 – Dec 2022)</li>
-              </ul>
+              <h4>BSc Thesis:</h4>
+              <div className="coursework-grid">
+                <div className="coursework-category">
+                  {/* The Integrity of Source Code Commenting : Benchmark Dataset and Empirical Analysis */}
+                  <a href="https://www.researchgate.net/publication/365077860_The_Integrity_of_Source_Code_Commenting_Benchmark_Dataset_and_Empirical_Analysis" target="_blank" className="company-link">
+                     The Integrity of Source Code Commenting : Benchmark Dataset and Empirical Analysis
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -112,15 +99,52 @@ const Academia: React.FC = () => {
           </div>
         </section>
 
+        <section className="certificates-section">
+          <h2>Certificates</h2>
+
+          <div className="certificate-card">
+            <div className="certificate-header">
+              <h3>CompTIA Security+ (In Progress)</h3>
+              <a href="https://elearning.securityblue.team/home/certificate/862837089" target="_blank" rel="noopener noreferrer" className="certificate-link">
+                View Certificate
+              </a>
+            </div>
+            <p className="certificate-issuer">Security Blue Team</p>
+            <p className="certificate-description">Comprehensive cybersecurity training covering threat modeling, vulnerability assessment, and incident response.</p>
+          </div>
+
+          <div className="certificate-card">
+            <div className="certificate-header">
+              <h3>Google Cybersecurity Professional Certificate</h3>
+              <a href="https://www.coursera.org/account/accomplishments/verify/8EBMSUD2SF7W" target="_blank" rel="noopener noreferrer" className="certificate-link">
+                View Certificate
+              </a>
+            </div>
+            <p className="certificate-issuer">Coursera - Google</p>
+            <p className="certificate-description">Professional certificate covering cybersecurity fundamentals, SOC workflows, SIEM tools, and security best practices.</p>
+          </div>
+
+          <div className="certificate-card">
+            <div className="certificate-header">
+              <h3>Introduction to Cybersecurity</h3>
+              <a href="https://www.credly.com/badges/1c1118b8-bb71-491e-a269-0df12d5d7d7f/linked_in_profile" target="_blank" rel="noopener noreferrer" className="certificate-link">
+                View Credential
+              </a>
+            </div>
+            <p className="certificate-issuer">CISCO</p>
+            <p className="certificate-description">Industry-recognized certification demonstrating expertise in cybersecurity fundamentals, risk management, and compliance.</p>
+          </div>
+        </section>
+
         <section className="standardized-tests">
           <h2>Standardized Tests</h2>
           <div className="test-card">
             <h3>IELTS</h3>
-            <p className="test-date">September 2023</p>
+            <p className="test-date">November 2025</p>
             <div className="test-scores">
               <div className="overall-score">
                 <span className="score-label">Overall Band Score:</span>
-                <span className="score-value">7.5</span>
+                <span className="score-value">7</span>
               </div>
               <div className="individual-scores">
                 <div className="score-item">
@@ -133,7 +157,7 @@ const Academia: React.FC = () => {
                 </div>
                 <div className="score-item">
                   <span>Writing:</span>
-                  <span>7.0</span>
+                  <span>6.5</span>
                 </div>
                 <div className="score-item">
                   <span>Speaking:</span>
