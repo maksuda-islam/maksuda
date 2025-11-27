@@ -20,10 +20,6 @@ const Home: React.FC = () => {
               <p className="tagline">Building robust test automation infrastructure for healthcare & fintech at scale</p>
               <p className="location">📍 Dhaka, Bangladesh</p>
 
-              <div className="research-interests">
-                <p><strong>Research Interests:</strong> Web Security, Application Security, Applied AI</p>
-              </div>
-
               <div className="contact-info">
                 <p><strong>Email:</strong> <a href="mailto:maksudaislam@iut-dhaka.edu">maksudaislam@iut-dhaka.edu</a></p>
               </div>
